@@ -1,0 +1,71 @@
+.products-title {
+  font-family: "Cormorant";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+.products-subtitle {
+  font-family: "Cormorant";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  width: 180px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #7F7F7F;
+}
+.products-text {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  
+}
+.products-image{
+    width: 150px;
+    height: 150px;
+}
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.products-item{
+    display: flex;
+    width: 350px;
+    /* outline: solid green; */
+}
+.products-box{
+    padding: 17px 15px;
+    text-align: center;
+}
+.products-stars{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.products-chevrons{
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.products-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #de1616;
+    margin: 10px auto 50px;
+}
+.products{
+    margin-bottom: 90px;
+}
+/* .products-item:hover{
+    box-shadow: black 5px;
+
+} */

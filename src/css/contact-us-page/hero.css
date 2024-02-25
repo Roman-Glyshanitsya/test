@@ -1,0 +1,255 @@
+.hero {
+    padding-top: 131px;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-name {
+    color: #000;
+    text-align: center;
+    font-family: 'Cormorant';
+    font-size: 42px;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.contact-title {
+    font-family: 'Cormorant';
+    font-size: 42px;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    color: #000;
+}
+
+.contact-title {
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.contact-subtitle {
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-address {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.hero-block {
+    margin: 0 auto;
+}
+
+.hero-title {
+    color: #000;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.hero-form {
+    padding-bottom: 40px;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    color: #000;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 450px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.form-textarea {
+    resize: none;
+    width: 450px;
+    height: 170px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.form-btn {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    background-color: var(--black, #292A33);
+    margin-top: 30px;
+}
+
+.archives-item {
+    display: flex;
+}
+
+.categories-item {
+    display: flex;
+}
+
+.posts-item {
+    display: flex;
+    gap: 10px;
+}
+
+.posts-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.posts-subtitle {
+    margin-right: auto;
+}
+
+.aside-title {
+    font-family: Cormorant;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+}
+
+.archives-time {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.archives-number {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.categories-text {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.categories-number {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.posts-subtitle {
+    font-family: Cormorant;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin-right: auto;
+}
+
+.posts-time {
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: var(#7F7F7F);
+}
+
+.aside-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #de1616;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.archives-item {
+    display: flex;
+}
+
+.categories-item {
+    display: flex;
+}
+
+.posts-item {
+    display: flex;
+    gap: 10px;
+}
+
+.posts-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.blog-aside {
+    max-width: 260px;
+    margin-right: 40px;
+}
+
+.archives-item,
+.categories-item {
+    border-bottom: solid 1px #7F7F7F;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.posts-item {
+    border-bottom: solid 1px #7F7F7F;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.archives-item:last-child,
+.categories-item:last-child,
+.posts-item:last-child {
+    border: none;
+    padding: none;
+    margin: none;
+}

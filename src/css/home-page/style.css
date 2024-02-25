@@ -1,0 +1,39 @@
+.style {
+  padding-bottom: 90px;
+}
+
+.style-title {
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.style-text {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.9px;
+  margin-bottom: 0;
+}
+.style-button {
+  padding: 14px 28px;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--black);
+  background-color: #fff;
+  margin-top: 32px;
+}
+.style-container{
+    display: flex;
+}
+.style-box{
+    border: 1px solid #333;
+    padding: 40px ;
+}
+.style-image{
+    border: 1px solid #333;
+    
+}

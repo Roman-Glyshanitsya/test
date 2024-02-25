@@ -1,0 +1,37 @@
+.shopp {
+    padding-bottom: 90px;
+}
+
+.shop-block {
+    background-repeat: no-repeat;
+    background-size: 1160px 700px;
+    width: 1160px;
+    background-image: url(../../images/home-page/shop-bg.webp);
+    padding: 40px 40px 40px 0;
+}
+
+.shop-subtitle2 {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Cormorant';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    margin-bottom: 482px;
+    max-width: 232px;
+    margin-left: auto;
+}
+
+.shop-btn {
+    color: var(--black, #292A33);
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    padding: 14px 28px;
+    margin-left: auto;
+}
